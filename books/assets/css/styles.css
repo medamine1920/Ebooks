@@ -1,0 +1,57 @@
+#promo {
+  text-align: center;
+  padding: 40px;
+  background: url(../../assets/img/background.jpg)no-repeat;
+  background-size: cover;
+}
+
+#promo .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+  #promo .jumbotron {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 300px) {
+  #promo {
+    padding: 20px;
+  }
+}
+
+#para {
+  text-align: center;
+  align-items: center;
+}
+
+#ebooks {
+  font-size: 35px;
+}
+
+body {
+  font-family: Arial, Helvetica. sans-serif;
+}
+
+.site-section {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.wel {
+  max-width: 800px;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.site-section h1 {
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+
